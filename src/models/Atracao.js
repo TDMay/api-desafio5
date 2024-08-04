@@ -6,6 +6,7 @@ const atracaoSchema = new mongoose.Schema({
   endereco: { type: String},
   latitude: { type: Number},
   longitude: {type: Number},
+  descricao: {type: String},
   imagens: { type: Array },
 }, { versionKey: false });
 
